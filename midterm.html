@@ -6,22 +6,32 @@
 
             <!-- Ensures site adapts to device screen used -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
 
 
  <title>My Web Page</title>
 </head>
 <body>
   <!-- Navbar contents -->
-  <div id="navbar">
-    <a href="#home">#home</a>
-    <a href="#news">#works</a>
-    <a href="#aboutme">#about-me</a>
-    <a href="#contact">#contacts</a>
+  <nav class="navbar">
+   <div class="nav-left">
+    <img src="C:\CIS 255\logo255.png" alt="logo255">
+   </div>
+<!-- Create nav bar in middle with colored hashtags -->
+    <div class="nav-middle">
+      <ul>
+        <li><a href="#"><span class="hashtag">#</span>home</a></li>
+       <li> <a href="#"><span class="hashtag">#</span>news </a> </li>
+       <li> <a href="#"><span class="hashtag">#</span>about-me </a> </li>
+       <li><a href="#"><span class="hashtag">#</span>contacts</a> </li>
+      </ul>
   </div>
-  <!--Adds color to CIS and SVSU with classes -->
-  <p> Avery is a <span class="major"> CIS </span> student 
-    at <span class="school"> SVSU. </span> 
-   </p>
+  
+  <!--Adds color to specific texts within span -->
+  <div class="div-container"> Elias is a <span class="webdesigner"> web designer </span> and
+     <span class="developer"> front-end developer. </span> 
+  </div>
   
 </body>
 </html>
