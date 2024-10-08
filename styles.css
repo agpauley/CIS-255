@@ -1,5 +1,6 @@
 body {
   background: #282C33;
+  overflow: scroll;
 }
 
 .nav-container{
@@ -27,7 +28,7 @@ body {
   width: auto; /* maintain the aspect ratio */
 }
 
-.nav-middle {
+.nav-middle ul,li {
   font-size: large;
   list-style: none;
   margin: 0;
@@ -35,10 +36,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .intro {
-  font-size: 100px;
+  font-size: 52px;
   color: white;
   text-align: center;
   margin-top: 100px; /* adjust the margin top to position the text */
@@ -54,9 +61,4 @@ body {
 
 .hashtag {
   color: #C778DD;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
