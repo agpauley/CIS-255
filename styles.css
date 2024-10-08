@@ -1,73 +1,62 @@
-/* Changes pages background color */
 body {
-    background: #282C33;
-  }
-  
-      */
-    /* Changes "web designer" and "front-end developer to purple */
-    .webdesigner{
-    color:#C778DD
-    }
-    .developer{
-      color: #C778DD
-    }
-    div-container {
-    top: 250px;
-    left: 50px;
-    color: white;
-    font-size: 50px;
-  }
-  /* #navbar{ 
-     position: sticky; 
-     top: 0; 
-     left: 100%; 
-     overflow: hidden; 
-     background-color: rgb(20, 19, 19); 
-     width: 100%; 
-    height: 100%;
-  }
-       */
-  /* Navbar code sourced by Blackbox AI*/ 
-  .nav-left img{
-    width: 52px; /* adjust width for .nav-left img */
-    height: 52px;
-    margin: 10px;
-  }
-  .nav-middle {
-    position: fixed; /* make the nav bar fixed at the top */
-    top: 0; /* set the top position to 0 */
-    left: 0; /* set the left position to 0 */
-    width: 100%; /* set the width to 100% */
-    height: 50px; /* set the height to a thin nav bar */
-    background-color: #282C33; /* set the background color */
-    display: flex; /* use flexbox to center the content */
-    justify-content: center; /* center the content horizontally */
-    align-items: center; /* center the content vertically */
-    padding: 0; /* remove any padding */
-    margin: 0; /* remove any margin */
-    overflow: hidden; /* hide any overflow */
-    z-index: 1; /* set the z-index to 1 to ensure the nav bar is on top */
-  }
-  .nav-middle ul {
-    list-style: none; /* remove the list style */
-    margin: 0; /* remove any margin */
-    padding: 0; /* remove any padding */
-    display: flex; /* use flexbox to center the content */
-    justify-content: center; /* center the content horizontally */
-    align-items: center; /* center the content vertically */
-  }
-  
-  .nav-middle li {
-    margin-right: 20px; /* add some space between the list items */
-  }
+  background: #282C33;
+}
 
-  a{
-    text-decoration: none;
-    color:white;
-  }
-  .hashtag{
-    color:#C778DD
-  }
+.nav-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #282C33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  z-index: 1;
+}
 
-       
-    
+.nav-left {
+  margin-right: 20px;
+}
+
+.nav-left img {
+  height: 50px; /* match the height of the nav-middle */
+  width: auto; /* maintain the aspect ratio */
+}
+
+.nav-middle {
+  font-size: large;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 100px; /* adjust the margin top to position the text */
+}
+
+.webdesigner {
+  color: #C778DD;
+}
+
+.developer {
+  color: #C778DD;
+}
+
+.hashtag {
+  color: #C778DD;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
