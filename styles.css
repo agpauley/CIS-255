@@ -45,10 +45,25 @@ a {
 }
 
 .intro {
+  top: 123px;
+  left: 171px;
   font-size: 52px;
   color: white;
-  text-align: center;
   margin-top: 100px; /* adjust the margin top to position the text */
+}
+.intro-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.image-container{
+  margin-left: 20px;
+}
+.subtext{
+  font-size:20px;
+  color:#9fa0a3
 }
 
 .webdesigner {
