@@ -1,8 +1,9 @@
+/* Adds scrollbar and background color of page */
 body {
   background: #282C33;
   overflow: scroll;
 }
-
+/* Formats navbar */
 .nav-container{
   position: fixed;
   top: 0;
@@ -19,15 +20,12 @@ body {
   z-index: 1;
 }
 
-.nav-left {
-  margin-right: 20px;
-}
 
 .nav-left img {
   height: 50px; /* match the height of the nav-middle */
   width: auto; /* maintain the aspect ratio */
 }
-
+/* gets rid of line under links, moves navbar contents */
 .nav-middle ul,li {
   font-size: large;
   list-style: none;
@@ -57,14 +55,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: start;
-  text-align: left;
+   text-align: left; 
 }
 
 .image-container{
   margin-left: 20px; 
   align-self: flex-end;
   padding-right: 150px;
+  top: 150px;
+  position: fixed;
 }
+/* gray text  */
 .subtext{
   font-weight: 400;
   display: block;
@@ -81,7 +82,7 @@ a {
   left: 1px;
   border: 1px;
   gap: 10px;
-   position:fixed; 
+   position:absolute; 
 }
 .button{
   padding-top: 8px;
@@ -92,18 +93,34 @@ a {
   background-color: #282C33;
   color: aliceblue;
 }
+.current-works {
+  background-color: #282C33;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px; 
+  padding-right: 150px;
+  top: 450px;
+  left: 770px;
+  position: fixed;
+  color: white;
+}
+
 .quote-box {
   background-color: #282C33;
   padding: 20px;
   margin: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  position: relative;
+  top: 450px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 blockquote {
-  font-size: 24px;
-  font-style: italic;
+  font-size: 39px;
+  font-style:inherit;
   /* margin-bottom: 10px; */
   color: white;
 }
@@ -118,4 +135,42 @@ blockquote {
 
 .hashtag {
   color: #C778DD;
+}
+
+/* css for about-me */
+h3{
+color: white;
+font-size: 35px;
+height: 77px;
+top: 114px;
+left: 70px;
+position: relative;
+gap: 0px;
+opacity: 0px;
+font-style: inherit;
+}
+
+h4{
+color: white;
+font-size: 15px;
+ top: 65px; 
+left: 70px;
+position: relative;
+gap: 0px;
+opacity: 0px;
+font-style: normal;
+}
+
+.introline{
+  top: 125px; 
+  left: 70px;
+  position: relative;
+  color: #9fa0a3;
+}
+
+.paragraph1{
+  top: 125px; 
+  left: 70px;
+  position: relative;
+  color: #9fa0a3;
 }
